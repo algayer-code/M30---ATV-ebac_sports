@@ -24,7 +24,7 @@ function App() {
 
   function adicionarAoCarrinho(produto: Produto) {
     if (carrinho.find((p) => p.id === produto.id)) {
-      alert('Items já adicionado')
+      alert('Item já adicionado')
     } else {
       setCarrinho([...carrinho, produto])
     }
